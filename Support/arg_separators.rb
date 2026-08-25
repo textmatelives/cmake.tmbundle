@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -wKU
+#!/usr/bin/env ruby -wEutf-8
 
 commands = `/usr/local/bin/cmake --help-command-list`.to_a
 commands.shift # Skip version number
